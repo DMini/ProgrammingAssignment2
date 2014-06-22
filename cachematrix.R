@@ -12,7 +12,8 @@
 # cacheSolve(cMat)                  # 1st call: returns the inverse.
 # cacheSolve(cMat)                  # 2nd call: returns the cached inverse.
 
-## 1/ makeCacheMatrix: creates a special "matrix" object, which is really a list containing a function to
+## 1/ makeCacheMatrix: creates a special "matrix" object, which is really a list 
+# containing a function to:
 # (i)   set the value of the matrix
 # (ii)  get the value of the matrix
 # (iii) set the value of the inverse
